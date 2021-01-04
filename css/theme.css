@@ -173,12 +173,54 @@ label.checkbox::before {
     left: 0;
     top: 0;
     box-shadow: inset 1px 2px 2px #b8b9be, inset -5px -2px 4px #fff;
+    background-color: rgba(49, 52, 75, 0);
+    transition: all .2s ease-in-out;
 }
 
 input:checked + label.checkbox::before {
     box-shadow: 1px 2px 2px #b8b9be, -5px -2px 4px #fff;
-    background-color: rgb(49, 52, 75);
+    background-color: rgba(49, 52, 75, 1);
 }
+
+label.toggle {
+    padding-left: 48px;
+    cursor: pointer;
+}
+
+label.toggle::before {
+    border: 0;
+    box-shadow: inset 1px 2px 2px #b8b9be, inset -5px -2px 4px #fff;
+    content: "";
+    background-color: #ecf0f3;
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 18px;
+    left:18px;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+label.toggle::after {
+    border: 0;
+    box-shadow: 1px 2px 2px #b8b9be, -5px -2px 4px #fff;
+    content: "";
+    background-color: #e6e7ee;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-radius: 8px;
+    left:18px;
+    margin-top: 2px;
+    transition: all .2s ease-in-out;
+}
+
+
+input:checked + label.toggle::after {
+    left:36px;
+    background-color: #31344b;
+}
+
 
 /* CIRCLE PILLS */
 
