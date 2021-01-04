@@ -104,12 +104,20 @@ a {
     text-align: right;
 }
 
-.send {
+.send, .send svg path {
     color: rgb(202, 54, 54);
 }
 
-.receive {
+.send svg {
+    margin-right: 4px;
+}
+
+.receive, .receive svg path {
     color: rgb(41, 181, 41);
+}
+
+.receive svg {
+    margin-left: 4px;
 }
 
 .send-ok-button {
@@ -184,4 +192,8 @@ input:checked + label.checkbox::before {
 
 .security-content {
     padding: 0px 16px 16px 16px;
+}
+
+.password-change-button svg rect, .password-change-button svg path {
+    fill: #c8b069;
 }
