@@ -170,14 +170,18 @@ a {
     fill: #c8b069;
 }
 
-.terms-content {
-    padding: 0px 16px 16px 16px;
-}
-
 input:checked + label.toggle::after {
     background-color: #c8b069 !important;
 }
 
 input:checked + label.checkbox::before {
     background-color: #c8b069 !important;
+}
+
+.terms-content {
+    padding: 0px 16px 16px 16px;
+}
+
+.security-content {
+    padding: 0px 16px 16px 16px;
 }
