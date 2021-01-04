@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+}
+
+.body-content {
+    padding-top: 72px;
+}
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.toolbar-inner {
+    padding: 16px;
+    line-height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolbar-address {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 16px;
+}
+
+.home-header {
+    padding: 16px;
+    text-align: center;
+}
+
+.home-header-circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 100% !important;
+    display: inline-block;
+    background-image: url(../images/vsys-logo.png);
+    background-size: 66%;
+    background-position: center 66%;
+    background-repeat: no-repeat;
+}
+
+.home-header-ammount {
+    padding: 16px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home-header-buttons button {
+    margin: 0px 8px;
+}
+
+.home-transactions {
+    padding: 16px;
+}
+
+.transactions-header {
+    justify-content: space-between;
+    display: flex;
+    line-height: 24px;
+}
+
+.transactions-header-title svg {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.menu-links {
+    padding: 16px;
+}
+
+.menu-links .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.menu-links .nav-link svg {
+    vertical-align: middle;
+    margin-right: 8px;
+    padding-bottom: 4px;
+}
+
+.send-inputs {
+    display: grid;
+    padding: 16px;
+}
+
+.send-buttons {
+    padding: 16px;
+    text-align: right;
+}
+
+.send {
+    color: rgb(202, 54, 54);
+}
+
+.receive {
+    color: rgb(41, 181, 41);
+}
+
+.send-ok-button {
+    margin-left: 16px;
+}
+
+.input-group {
+    display: grid;
+    margin-bottom: 16px
+}
+
+.receive-buttons {
+    padding: 16px;
+    text-align: right;
+}
+
+.qr-card-zone {
+    padding: 16px;
+    text-align: center;
+}
+
+.qr-card {
+    max-width: 216px;
+    max-height: 216px;
+    display: inline-block;
+}
+
+.address-zone {
+    padding: 16px;
+}
+
+.address-zone input {
+    width: calc(100% - 82px);
+}
+
+.open-form-group {
+    padding: 16px;
+}
+
+.open-text {
+    padding: 16px;
+}
+
+.open-buttons {
+    padding: 16px;
+    text-align: right;
+}
+
+.open-buttons button:first-child {
+    margin-left: 0px;
+}
+ 
+ .open-buttons button {
+     margin-left: 16px;
+ }
+
+.open-buttons button svg rect, .open-buttons button svg path {
+    fill: #ff8837;
+}
+
+.terms-content {
+    padding: 0px 16px 16px 16px;
+}
