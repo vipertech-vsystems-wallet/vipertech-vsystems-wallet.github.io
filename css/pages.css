@@ -23,7 +23,7 @@ a {
 
 .toolbar-inner {
     padding: 16px;
-    line-height: 42px;
+    line-height: 48px;
     display: flex;
     justify-content: space-between;
 }
@@ -33,6 +33,11 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
     padding-right: 16px;
+}
+
+.toolbar-address, .toolbar-title {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .home-header {
@@ -150,7 +155,7 @@ a {
 }
 
 .address-zone input {
-    width: calc(100% - 82px);
+    width: calc(100% - 88px);
 }
 
 .open-form-group {

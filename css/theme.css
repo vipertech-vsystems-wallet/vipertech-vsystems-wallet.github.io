@@ -19,7 +19,7 @@ button {
     background-color: rgb(230, 231, 238);
     border: none;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     margin: 0;
     padding: 8px 16px;
@@ -42,10 +42,10 @@ button.rounded {
 
 button.circle {
     border-radius: 100%;
-    min-height: 42px;
-    min-width: 42px;
-    max-height: 42px;
-    max-width: 42px;
+    min-height: 48px;
+    min-width: 48px;
+    max-height: 48px;
+    max-width: 48px;
     text-align: center;
     vertical-align: middle;
     padding: 8px;
@@ -58,8 +58,8 @@ button:active, button.clicked {
 /* FORM */
 input, select, textarea, input[type="file"] + label  {
     text-overflow: ellipsis;
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 16px;
+    padding: 12px 16px;
     border: none;
     border-radius: 9px;
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
@@ -87,7 +87,7 @@ input.is-invalid, input[type="file"].is-invalid + label {
 select {
     -moz-appearance: window;
     -webkit-appearance: none;
-    padding: 9px 28px 9px 12px;
+    padding: 12px 36px 12px 16px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width:24px;height:24px' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' /%3E%3C/svg%3E");
 
 }
@@ -96,7 +96,7 @@ select {
     width: 100%;
     margin-top: 1px;
     margin-left: 8px;
-    font-size: 80%;
+    font-size: 14px;
 }
 
 input.is-valid + .feedback-input, input.is-valid + label + .feedback-input {
@@ -156,9 +156,10 @@ label.checkbox {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    padding-left: 1.375rem;
+    padding-left: 28px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
+    font-size: 18px;
     margin-bottom: 0;
     user-select: none;
 }
@@ -168,8 +169,8 @@ label.checkbox::before {
     border-radius: 2px;
     display: inline-block;
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     left: 0;
     top: 0;
     box-shadow: inset 1px 2px 2px #b8b9be, inset -5px -2px 4px #fff;
@@ -184,6 +185,7 @@ input:checked + label.checkbox::before {
 
 label.toggle {
     padding-left: 48px;
+    font-size: 18px;
     cursor: pointer;
 }
 
