@@ -36,6 +36,7 @@ a {
 }
 
 .toolbar-address, .toolbar-title {
+    color: #b59654;
     font-weight: bold;
     font-size: 18px;
 }
@@ -46,8 +47,8 @@ a {
 }
 
 .home-header-circle {
-    width: 116px;
-    height: 116px;
+    width: 132px;
+    height: 132px;
     border-radius: 100% !important;
     display: inline-block;
     background-image: url(../images/vsys-logo.png);
@@ -155,7 +156,7 @@ a {
 }
 
 .address-zone input {
-    width: calc(100% - 100px);
+    width: calc(100% - 92px);
 }
 
 .open-form-group {
