@@ -46,8 +46,8 @@ a {
 }
 
 .home-header-circle {
-    width: 96px;
-    height: 96px;
+    width: 116px;
+    height: 116px;
     border-radius: 100% !important;
     display: inline-block;
     background-image: url(../images/vsys-logo.png);

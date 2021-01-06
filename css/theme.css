@@ -14,6 +14,12 @@
     outline: none;
 }
 
+img {
+    max-width: 100%;
+    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
+    border-radius: 16px;
+}
+
 /* BUTTONS */
 button {
     background-color: rgb(230, 231, 238);
