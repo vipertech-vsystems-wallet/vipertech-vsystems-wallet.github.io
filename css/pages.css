@@ -195,8 +195,32 @@ input:checked + label.checkbox::before {
     padding: 0px 16px 16px 16px;
 }
 
+.terms-social-buttons {
+    text-align: center;
+}
+
+.terms-social-buttons button {
+    margin: 0 8px;
+}
+
+button.facebook svg path {
+    color: #3b5999;
+}
+
+button.twitter svg path {
+    color: #1da1f2;
+}
+
+button.github svg path {
+    color: #3b5999;
+}
+
+.about-content {
+    padding: 0px 16px 32px 16px;
+}
+
 .security-content {
-    padding: 0px 16px 16px 16px;
+    padding: 0px 16px 32px 16px;
 }
 
 .password-change-button svg rect, .password-change-button svg path {
