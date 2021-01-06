@@ -137,10 +137,10 @@ button.input-right-button {
     background-color: rgb(230, 231, 238);
     border: none;
     border-radius: 0px 14px 14px 0px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     margin: 0;
-    padding: 8px 16px;
+    padding: 14px 22px;
     transition: all ease .2s;
     vertical-align: middle;
     box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
