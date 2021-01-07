@@ -13,7 +13,7 @@
     outline: none;
 }
 
-html, body, #page, input, select, .toolbar {
+html, body, #page, input, select, .toolbar, textarea {
     background-color: rgb(230, 231, 238);
 }
 
@@ -21,7 +21,7 @@ img {
     max-width: 100%;
     display: block;
     box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
-    border-radius: 16px;
+    border-radius: 24px;
 }
 
 /* BUTTONS */
@@ -134,6 +134,7 @@ label {
 
 input.input-right-button {
     border-radius: 14px 0px 0px 14px;
+    vertical-align: middle;
 }
 
 button.input-right-button {
@@ -143,7 +144,7 @@ button.input-right-button {
     font-size: 18px;
     line-height: 33px;
     margin: 0;
-    padding: 8px 18px;
+    padding: 8px 16px;
     transition: all ease .2s;
     vertical-align: middle;
     box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
