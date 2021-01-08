@@ -75,11 +75,34 @@ a {
     justify-content: space-between;
     display: flex;
     line-height: 24px;
+    font-size: 18px;
+}
+
+.transactions-header-title {
+    cursor: pointer;
 }
 
 .transactions-header-title svg {
     margin-right: 8px;
     vertical-align: middle;
+}
+
+.transaction-block {
+    display: flex;
+    margin: 12px 0;
+}
+
+.transaction-block button {
+    display: inline-block;
+    margin-right: 12px;
+    float: left;
+}
+
+.transaction-data {
+    display: inline-flex;
+    justify-content: space-between;
+    float: right;
+    width: 100%;
 }
 
 .menu-links {
@@ -111,7 +134,7 @@ a {
 }
 
 .send, .send svg path {
-    color: rgb(202, 54, 54);
+    color: #a91e2c;
 }
 
 .send svg {
@@ -119,7 +142,7 @@ a {
 }
 
 .receive, .receive svg path {
-    color: rgb(41, 181, 41);
+    color: #18634b;
 }
 
 .receive svg {
@@ -213,7 +236,7 @@ button.twitter svg path {
 }
 
 button.github svg path {
-    color: #3b5999;
+    color: #31344b;
 }
 
 .about-content {
