@@ -112,6 +112,12 @@ a {
     width: 100%;
 }
 
+.no-transactions {
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+}
+
 .menu-links {
     padding: 16px;
 }
