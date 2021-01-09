@@ -140,6 +140,10 @@ a {
     text-align: right;
 }
 
+.send-ok-button svg rect, .send-ok-button svg path {
+    fill: #c8b069;
+}
+
 .send, .send svg path {
     color: #a91e2c;
 }
