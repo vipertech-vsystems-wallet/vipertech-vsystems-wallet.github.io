@@ -1,6 +1,6 @@
 {
   "name": "VSYS GOLD WALLET",
-  "short_name": "VSYS-GW",
+  "short_name": "VSYS Gold Wallet",
   "description": "Fast and very simple v.systems wallet.",
   "display": "standalone",
   "theme_color": "#b99e4f",
