@@ -150,6 +150,14 @@ a {
     fill: #c8b069;
 }
 
+.no-transactions svg rect, .no-transactions svg path {
+    fill: #c8b069;
+}
+
+.home-header-ammount svg rect, .home-header-ammount svg path {
+    fill: #c8b069;
+}
+
 .send, .send svg path {
     color: #a91e2c;
 }
