@@ -136,6 +136,10 @@ a {
     padding-bottom: 4px;
 }
 
+.nav-link.gold, .nav-link.gold svg path {
+    color: #a98337;
+}
+
 .send-inputs {
     display: grid;
     padding: 16px;
@@ -233,11 +237,11 @@ a {
 }
 
 input:checked + label.toggle::after {
-    background-color: #c8b069 !important;
+    background: linear-gradient(145deg, #a98337, #c8b069) !important;
 }
 
 input:checked + label.checkbox::before {
-    background-color: #c8b069 !important;
+    background: linear-gradient(145deg, #a98337, #c8b069) !important;
 }
 
 .terms-content {
