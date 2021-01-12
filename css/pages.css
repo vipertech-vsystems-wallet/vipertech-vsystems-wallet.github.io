@@ -57,10 +57,15 @@ a {
     background-repeat: no-repeat;
 }
 
-.home-header-ammount {
-    padding: 16px 0px;
+.home-header-ammount-crypto {
+    padding: 16px 0px 0px 0px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.home-header-ammount-fiat {
+    padding: 0px 0px 16px 0px;
+    font-size: 14px;
 }
 
 .home-header-buttons button {
@@ -278,4 +283,8 @@ button.github svg path {
 
 .password-change-button svg rect, .password-change-button svg path {
     fill: #c8b069;
+}
+
+.settings-content {
+    padding: 0px 16px 16px 16px;
 }
