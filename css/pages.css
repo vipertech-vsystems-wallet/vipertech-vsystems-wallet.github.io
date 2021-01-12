@@ -33,10 +33,20 @@ a {
 }
 
 .toolbar-address {
+    cursor: pointer;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     padding-right: 16px;
+}
+
+.toolbar-address svg {
+    margin-right: 8px;
+    vertical-align: sub;
+}
+
+.toolbar-address svg path {
+    color: #b59654;
 }
 
 .toolbar-address, .toolbar-title {

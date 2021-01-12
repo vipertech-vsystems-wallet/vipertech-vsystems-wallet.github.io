@@ -26,8 +26,7 @@ img {
 
 /* BUTTONS */
 button {
-    background: linear-gradient(145deg, #d7d8de, #efeff1);
-    border: none;
+    background: linear-gradient(145deg, #dfe0e6, #f3f3f5);    border: none;
     border-radius: 4px;
     font-size: 18px;
     line-height: 24px;
