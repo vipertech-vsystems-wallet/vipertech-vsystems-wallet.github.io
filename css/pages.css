@@ -2,6 +2,10 @@ html, body {
     margin: 0;
 }
 
+.gold {
+    color: #a98337;
+}
+
 a {
     cursor: pointer;
 }
@@ -214,6 +218,16 @@ a {
 
 .address-zone input {
     width: calc(100% - 92px);
+}
+
+.open-form-tabs {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.open-form-tabs a {
+    margin-right: 16px;
 }
 
 .open-form-group {
