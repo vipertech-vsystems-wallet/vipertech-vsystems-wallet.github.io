@@ -13,6 +13,10 @@
     outline: none;
 }
 
+p {
+    word-break: break-word;
+}
+
 html, body, #page, input, select, .toolbar, textarea {
     background-color: rgb(230, 231, 238);
 }
@@ -96,7 +100,7 @@ input, select, textarea, input[type="file"] + label  {
     padding: 12px 16px;
     border: none;
     margin: 0;
-    border-radius: 9px;
+    border-radius: 32px;
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
 }
 
@@ -202,7 +206,7 @@ label.checkbox {
 
 label.checkbox::before {
     content: "";
-    border-radius: 2px;
+    border-radius: 4px;
     display: inline-block;
     position: absolute;
     width: 18px;
