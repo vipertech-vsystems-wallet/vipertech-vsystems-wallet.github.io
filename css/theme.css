@@ -18,19 +18,20 @@ p {
 }
 
 html, body, #page, input, select, .toolbar, textarea {
-    background-color: rgb(230, 231, 238);
+    background-color: #f2f3f7;
 }
 
 img {
     max-width: 100%;
     display: block;
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
     border-radius: 18px;
 }
 
 /* BUTTONS */
 button {
-    background: linear-gradient(145deg, #dfe0e6, #f3f3f5);    border: none;
+    background: #f2f3f7;
+    border: none;
     border-radius: 4px;
     font-size: 18px;
     line-height: 24px;
@@ -38,7 +39,7 @@ button {
     padding: 12px 18px;
     vertical-align: middle;
     transition: all 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
 }
 
 button svg {
@@ -75,7 +76,7 @@ button.rounded {
 }
 
 button.button-inset {
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px inset, rgb(255, 255, 255) -3px -3px 7px 0px inset;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
 }
 
 button.circle {
@@ -90,7 +91,7 @@ button.circle {
 }
 
 button:active, button.clicked {
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px inset, rgb(255, 255, 255) -3px -3px 7px 0px inset;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
 }
 
 /* FORM */
@@ -101,7 +102,7 @@ input, select, textarea, input[type="file"] + label  {
     border: none;
     margin: 0;
     border-radius: 32px;
-    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
 }
 
 *::placeholder, .placeholder {
@@ -167,7 +168,7 @@ input.input-right-button {
 }
 
 button.input-right-button {
-    background-color: rgb(230, 231, 238);
+    background-color: #f2f3f7;
     border: none;
     border-radius: 0px 14px 14px 0px;
     font-size: 18px;
@@ -176,11 +177,11 @@ button.input-right-button {
     padding: 8px 16px;
     transition: all ease .2s;
     vertical-align: middle;
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
 }
 
 button.input-right-button:active {
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px inset, rgb(255, 255, 255) -3px -3px 7px 0px inset;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
 }
 
 button.input-right-button * {
@@ -213,14 +214,14 @@ label.checkbox::before {
     height: 18px;
     left: 0;
     top: 0;
-    box-shadow: inset 1px 2px 2px #b8b9be, inset -5px -2px 4px #fff;
-    background-color: rgba(49, 52, 75, 0);
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
+    background-color: #f2f3f7;
     transition: all .2s ease-in-out;
 }
 
 input:checked + label.checkbox::before {
-    box-shadow: 1px 2px 2px #b8b9be, -5px -2px 4px #fff;
-    background-color: rgba(49, 52, 75, 1);
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+    background-color: #f2f3f7;
 }
 
 label.toggle {
@@ -231,9 +232,9 @@ label.toggle {
 
 label.toggle::before {
     border: 0;
-    box-shadow: inset 1px 2px 2px #b8b9be, inset -5px -2px 4px #fff;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
     content: "";
-    background-color: #ecf0f3;
+    background-color: #f2f3f7;
     position: absolute;
     display: block;
     width: 36px;
@@ -245,9 +246,9 @@ label.toggle::before {
 
 label.toggle::after {
     border: 0;
-    box-shadow: 1px 2px 2px #b8b9be, -5px -2px 4px #fff;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
     content: "";
-    background-color: #e6e7ee;
+    background-color: #f2f3f7;
     position: absolute;
     height: 18px;
     width: 18px;
@@ -260,20 +261,20 @@ label.toggle::after {
 
 input:checked + label.toggle::after {
     left:36px;
-    background-color: #31344b;
+    background-color: #f2f3f7;
 }
 
 
 /* CIRCLE PILLS */
 
 .card {
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px, rgb(255, 255, 255) -3px -3px 7px 0px;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
     border-radius: 12px;
     padding: 16px;
 }
 
 .card-inset {
-    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px inset, rgb(255, 255, 255) -3px -3px 7px 0px inset;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
     border-radius: 12px;
     padding: 16px;
 }

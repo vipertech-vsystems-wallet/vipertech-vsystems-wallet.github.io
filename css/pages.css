@@ -6,6 +6,12 @@ html, body {
     color: #a98337;
 }
 
+.gold-gradient {
+    background: linear-gradient(to left, #fcffbc, #a69044);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 a {
     cursor: pointer;
 }
