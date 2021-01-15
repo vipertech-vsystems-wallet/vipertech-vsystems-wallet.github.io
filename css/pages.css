@@ -71,10 +71,18 @@ a {
     height: 132px;
     border-radius: 100% !important;
     display: inline-block;
-    background-image: url(../images/vsys-logo.png);
+    /*background-image: url(../images/vsys-logo.png);
     background-size: 66%;
     background-position: center 66%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+}
+
+.home-header-circle img {
+    max-height: 72%;
+    padding-top: 31px;
+    display: inherit;
+    box-shadow: none;
+    border-radius: 0px;
 }
 
 .home-header-ammount-crypto {
