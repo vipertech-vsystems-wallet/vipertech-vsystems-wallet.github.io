@@ -98,6 +98,7 @@ button:active, button.clicked {
 
 /* FORM */
 input, select, textarea, input[type="file"] + label  {
+    width: inherit;
     text-overflow: ellipsis;
     font-size: 16px;
     padding: 12px 16px;
