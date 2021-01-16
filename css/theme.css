@@ -141,11 +141,11 @@ select {
     font-size: 14px;
 }
 
-input.is-valid + .feedback-input, input.is-valid + label + .feedback-input {
+input.is-valid + .feedback-input, input.is-valid + label + .feedback-input, input.is-invalid + .feedback-input * {
     color: #18634b;
 }
 
-input.is-invalid + .feedback-input, input.is-invalid + label + .feedback-input {
+input.is-invalid + .feedback-input, input.is-invalid + label + .feedback-input, input.is-invalid + .feedback-input * {
     color: #a91e2c;
 }
 
