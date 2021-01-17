@@ -7,7 +7,7 @@ body {
     max-width: 100vw;
 }
 
-.gold {
+.gold, .gold svg path {
     color: #a98337;
 }
 
@@ -52,9 +52,18 @@ a {
         transform: translate(-50%, -50%);
     }
 
-    .overlay-download-chrome-ext a {
+    .overlay-download-chrome-ext-int span a {
         font-weight: bold;
-        font-size: 14px;
+    }
+
+    .overlay-download-chrome-ext-int span a svg {
+        vertical-align: bottom;
+        margin-right: 8px;
+    }
+    
+    .overlay-download-chrome-ext-int span {
+        margin-top: 12px;
+        display: block;
     }
 }
 
