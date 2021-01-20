@@ -331,6 +331,7 @@ body {
 
 .open-form-tabs a {
     margin-right: 16px;
+    display: inline-block;
 }
 
 .open-form-group {
