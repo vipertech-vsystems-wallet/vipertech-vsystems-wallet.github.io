@@ -229,6 +229,13 @@ body {
     text-overflow: ellipsis;
 }
 
+.row.memo {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+
 .no-transactions {
     padding: 16px;
     text-align: center;
