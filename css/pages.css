@@ -191,14 +191,20 @@ body {
 }
 
 .transaction-block {
+    display: block;
+    width: calc(100% - 48px) !important;
+    margin: 0 12px 0 12px !important;
+}
+
+.transaction-block-inner {
     display: flex;
-    margin: 12px 0;
+    width: 100%;
+    margin-bottom: 12px;
 }
 
 .transactions-blocks {
     overflow-x: auto;
     overflow-y: auto;
-    padding: 0px 16px 0px 16px;
 }
 
 .transaction-block button {
