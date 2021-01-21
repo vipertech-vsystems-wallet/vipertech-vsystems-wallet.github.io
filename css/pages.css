@@ -220,6 +220,15 @@ body {
     width: 100%;
 }
 
+.transaction-other-data {
+    display: inline-block;
+    width: 100%;
+}
+
+.transaction-other-data .row {
+    text-overflow: ellipsis;
+}
+
 .no-transactions {
     padding: 16px;
     text-align: center;
