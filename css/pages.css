@@ -229,11 +229,19 @@ body {
     text-overflow: ellipsis;
 }
 
-.row.memo {
+.transaction-meta-data {
+    width: 100%;
+}
+
+.row.address, .row.memo {
     white-space: nowrap;
     overflow: hidden;
     display: block;
     text-overflow: ellipsis;
+}
+
+.row.memo {
+    width: 100%;
 }
 
 .no-transactions {
