@@ -106,6 +106,7 @@ input, select, textarea, input[type="file"] + label  {
     margin: 0;
     border-radius: 32px;
     box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9) inset, 5px 5px 8px rgba(0, 0, 0, 0.07) inset;
+    -webkit-appearance: none;
 }
 
 *::placeholder, .placeholder {
