@@ -1,2 +1,2 @@
 # vipertech-vsystems-wallet.github.io
-USE IT CAREFULLY (V0.0.1+)
+USE IT WISELY (V0.1.0+)
